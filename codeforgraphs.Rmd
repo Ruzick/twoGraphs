@@ -50,7 +50,7 @@ u<-read.delim(file = '10fulldat.txt', sep = '\t', header = TRUE)
 t<-tbl_df(u)
 summary(t)
 pairs(t)
-
+#From here below, code was borrowed from the database creator for connectedness
 dir.sci_dat_country <- 'country_country_aug2020.tsv'
 
 # Read in the country SCI data
